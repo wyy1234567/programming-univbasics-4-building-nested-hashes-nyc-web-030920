@@ -34,5 +34,6 @@ def monopoly_with_fourth_tier
   newHash = monopoly_with_third_tier
   newHash[:railroads][:names][:reading_railroad]["mortgage_value"] = "$100"
   newHash[:railroads][:names][:pennsylvania_railroad]["mortgage_value"] = "$200"
+  newHash[:railroads][:names][:b_and_o_railroad]["mortgage_value"] = "$400"
   newHash
 end
