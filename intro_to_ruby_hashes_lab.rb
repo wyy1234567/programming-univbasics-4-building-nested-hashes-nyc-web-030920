@@ -22,6 +22,8 @@ def monopoly_with_third_tier
   newHash = monopoly_with_second_tier
   newHash[:railroads][:rent_in_dollars] = {}
   
+  newHash
+  
 end
 
 def monopoly_with_fourth_tier
